@@ -153,6 +153,7 @@ namespace Content.Shared.Movement.Systems
                 move.SprintSpeedModifier = ev.SprintSpeedModifier;
             }
             // Erida edit end
+
             Dirty(uid, move);
         }
 

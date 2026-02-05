@@ -159,6 +159,7 @@
         name: power-cell-slot-component-slot-name-default
   - type: Tag
     tags: []
+  - type: ShoesBootsSpeed
 
 - type: entity
   parent: BaseAction
