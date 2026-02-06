@@ -1,6 +1,8 @@
+using Robust.Shared.GameStates;
+
 namespace Content.Shared._Erida.ShoesBootsSpeed.Components;
 
-[RegisterComponent, Access(typeof(ShoesBootsSpeedSystem))]
+[RegisterComponent, NetworkedComponent, Access(typeof(ShoesBootsSpeedSystem))]
 public sealed partial class ShoesBootsSpeedComponent : Component
 {
     [DataField]
